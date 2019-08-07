@@ -26,7 +26,7 @@ const intern3 = { id: 2, name: "Keven", email: "kmummery2@wikimedia.org", gender
 
 const intern4 = { id: 3, name: "Gannie", email: "gmartinson3@illinois.edu", gender: "M" };
 
-const intern5 = { id; 4, name: "Antonietta", email: "adaine5samsung.com", gender: "F" };
+const intern5 = { id: 4, name: "Antonietta", email: "adaine5@samsung.com", gender: "F", multiplyNums: function(num1,num2){return num1 * num2;}}
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
@@ -47,7 +47,7 @@ console.log(intern5.gender);
 intern3.saysHello()
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
-//console.log(antonietta.multiplyNums(3,4));
+console.log(intern5.multiplyNums(3,4));
 
 // === Great work! == Head over to the the arrays.js file or take a look at the stretch challenge
 
